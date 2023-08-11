@@ -1,0 +1,29 @@
+$objectConfig: 0,
+contain,
+cover,
+fill,
+scale-down;
+
+@each $tuple in $objectConfig {
+    .object-fit-#{($tuple)} {
+        object-fit: $tuple;
+    }
+}
+
+@for $i from 1 through 5000 {
+  .vh-height-#{$i} {
+    height: calc(100vh - #{$i}px);
+  }
+}
+
+@for $i from 1 through 10 {
+  .text-truncate-#{$i} {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: $i; /* number of lines to show */
+    line-clamp: $i;
+    -webkit-box-orient: vertical;
+    // height: calc(100vh - #{$i}px);
+  }
+}

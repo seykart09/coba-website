@@ -1,0 +1,196 @@
+//Imports
+@import url('https://fonts.googleapis.com/css2?family=Purple+Purse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
+
+// Styles that start with A
+// Styles that start with B
+.banner{
+  background:  linear-gradient(110.4deg, rgba(0, 0, 0, 0.73) 0.78%, rgba(104, 109, 82, 0.63) 95.03%), url("../../img/banner.jpg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bg-body{
+  background-color: $white !important;
+}
+
+.bg-primary{
+  background-color: $body-color !important;
+}
+
+.bg-light{
+  background-color: rgba(217, 217, 217, 0.2);
+}
+
+.bg-muted{
+  background-color: rgba(217, 217, 217, 1);
+}
+
+body{
+  // font-size: 0.9rem;
+  -webkit-font-smoothing: antialiased;
+  color: #000000;
+  font-display: swap;
+  font-size: 20px;
+  font-family: $font-family-base;
+  font-weight: 400;
+}
+
+.body{
+  padding-top: 110px;
+}
+// Styles that start with C
+
+.carousel{
+
+  .carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+
+  .carousel-indicators{
+    bottom: -70px;
+  }
+
+  .carousel-item{
+    background: rgba(30, 29, 29);
+    overflow: hidden;
+    height: 100%;
+
+    img{
+      object-fit: cover;
+      opacity: 0.5;
+    }
+  }
+}
+.categories{
+  height: 400px;
+  position: relative;
+  background-repeat: no-repeat;
+  object-position: center;
+  background-color: #D9D9D9;
+
+  .content{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 0.2s;
+    transition: all 0.3s ease-in;
+    
+    overflow: hidden;
+  }
+
+  &:hover{
+    .content{
+      opacity: 1;
+      background: rgba(34, 33, 33, 0.8);
+    }
+  }
+}
+
+.coaches{
+  height: 250px;
+  position: relative;
+  background-repeat: no-repeat;
+  object-position: center;
+  background-color: #D9D9D9;
+
+  .content{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: 0.2s;
+    transition: all 0.3s ease-in;
+    
+    overflow: hidden;
+  }
+
+  &:hover{
+    .content{
+      opacity: 1;
+      background: rgba(34, 33, 33, 0.8);
+    }
+  }
+}
+// Styles that start with D
+// Styles that start with E
+// Styles that start with F
+// Styles that start with G
+// Styles that start with H
+// Styles that start with I
+// Styles that start with J
+// Styles that start with K
+// Styles that start with L
+// Styles that start with M
+// Styles that start with N
+// Styles that start with O
+// Styles that start with P
+p{
+  font-size: 1rem;
+}
+// Styles that start with Q
+// Styles that start with R
+// Styles that start with S
+.section{
+  padding: 5rem 0;
+}
+// Styles that start with T
+.team-stats{
+  svg{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0.5rem;
+  }
+
+  :nth-child(1){
+    .card{
+      .card-body{
+        svg{
+          color: $body-color;
+        }
+      }
+    }    
+  }
+
+  :nth-child(2){
+    .card{
+      .card-body{
+        svg{
+          color: #ffdc11;
+        }
+      }
+    }   
+  }
+
+  :nth-child(3){
+    .card{
+      .card-body{
+        svg{
+          color: rgb(204, 0, 0);
+        }
+      }
+    }   
+  }
+}
+
+.text-primary{
+  color: $primary !important;
+}
+
+.title{
+  font-family: $font-family-titles;
+}
+// Styles that start with U
+// Styles that start with V
+// Styles that start with W
+// Styles that start with X
+// Styles that start with Y
+// Styles that start with Z
+
+  

@@ -1,0 +1,42 @@
+nav{
+    height: 110px;
+    background-color: white !important;
+    font-weight: 500;
+
+    .navbar-search{
+        width: 400px;
+        height: 55px;
+        span{
+            border-top-left-radius: 160px !important;
+            border-bottom-left-radius: 160px !important;
+            background-color: white !important;
+            border-right: 0;
+            padding-left: 1.5rem;
+        }
+    
+        input{
+            border-top-right-radius: 160px !important;
+            border-bottom-right-radius: 160px !important;
+            border-left: 0;
+            background-color: white !important;
+
+        }
+        
+        @media (max-width: 576px) {
+            width: 230px;
+          }
+    }
+    .navbar-nav{
+        gap: 0.5rem;
+    }
+
+    .nav-link{
+        color: black;
+        border-bottom: 3px solid white;
+
+        &:hover,&.active, &.show{
+            color: black !important;
+            border-bottom: 3px solid grey;
+        }
+    }
+}
