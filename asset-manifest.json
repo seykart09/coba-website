@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/coba-website/static/css/main.b1113cd3.css",
+    "main.js": "/coba-website/static/js/main.b797355a.js",
+    "static/js/787.8123cfcb.chunk.js": "/coba-website/static/js/787.8123cfcb.chunk.js",
+    "static/media/banner.jpg": "/coba-website/static/media/banner.ecf39eaa1252a22e71c4.jpg",
+    "static/media/Coach-Ato.webp": "/coba-website/static/media/Coach-Ato.5b7f1685580d53f4a5e7.webp",
+    "static/media/slider-image-3.png": "/coba-website/static/media/slider-image-3.8ab0bc1aad7dc7adf70a.png",
+    "static/media/slider-image-1.png": "/coba-website/static/media/slider-image-1.5943d0cc1fecb59cb3aa.png",
+    "static/media/slider-image-2.png": "/coba-website/static/media/slider-image-2.bd8f77483c5da6534b75.png",
+    "static/media/coach-thomas.webp": "/coba-website/static/media/coach-thomas.2cca3c453d148d379380.webp",
+    "static/media/jerseys.jpeg": "/coba-website/static/media/jerseys.2c55f91c84a6cc6329a9.jpeg",
+    "static/media/accessories.jpg": "/coba-website/static/media/accessories.a96efec1c9895493d175.jpg",
+    "static/media/cobalogo.png": "/coba-website/static/media/cobalogo.10ef015bdc85c4f1270f.png",
+    "static/media/calendar.png": "/coba-website/static/media/calendar.eb36fd6ba45e378956f2.png",
+    "static/media/basketball shoes.jpeg": "/coba-website/static/media/basketball shoes.66df05d0f8f94dc9a7cc.jpeg",
+    "static/media/coach-nick.webp": "/coba-website/static/media/coach-nick.ae66bd1b42f0ac027766.webp",
+    "static/media/coba-logo.svg": "/coba-website/static/media/coba-logo.a544bd57749a1dc42368f8cec21f0734.svg",
+    "static/media/instagram.svg": "/coba-website/static/media/instagram.620c361a0ee24710fb8aa4c26bbb0a47.svg",
+    "index.html": "/coba-website/index.html",
+    "static/media/facebook.svg": "/coba-website/static/media/facebook.93729d0ad564839d4bc8bcda697cc113.svg",
+    "main.b1113cd3.css.map": "/coba-website/static/css/main.b1113cd3.css.map",
+    "main.b797355a.js.map": "/coba-website/static/js/main.b797355a.js.map",
+    "787.8123cfcb.chunk.js.map": "/coba-website/static/js/787.8123cfcb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1113cd3.css",
+    "static/js/main.b797355a.js"
+  ]
+}
